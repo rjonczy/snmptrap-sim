@@ -42,6 +42,6 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/rjonczy/snmptrap-sim:${{ env.MAJOR_VERSION }}
-            ghcr.io/rjonczy/snmptrap-sim:${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}
-            ghcr.io/rjonczy/snmptrap-sim:${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}.${{ env.PATCH_VERSION }}
+            ghcr.io/rjonczy/snmptrap-sim/test:${{ env.MAJOR_VERSION }}
+            ghcr.io/rjonczy/snmptrap-sim/test:${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}
+            ghcr.io/rjonczy/snmptrap-sim/test:${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}.${{ env.PATCH_VERSION }}
